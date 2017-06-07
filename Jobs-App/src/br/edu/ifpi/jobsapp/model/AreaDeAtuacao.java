@@ -7,7 +7,7 @@ public class AreaDeAtuacao {
 	// class attributes
 	
 	private String nome;
-	private ArrayList<String> vagas;
+	private ArrayList<Vaga> vagas;
 	
 	
 	// getters and setters 
@@ -15,7 +15,7 @@ public class AreaDeAtuacao {
 	public String getNome(){
 		return this.nome;
 	}
-	public ArrayList getVagas(){
+	public ArrayList<Vaga> getVagas(){
 		return this.vagas;
 	}
 	
@@ -23,7 +23,7 @@ public class AreaDeAtuacao {
 		this.nome = nome;
 	}
 	
-	public void setVagas(ArrayList<String> vagas){
+	public void setVagas(ArrayList<Vaga> vagas){
 		
 		this.vagas = vagas;
 	}

@@ -3,6 +3,15 @@ package br.edu.ifpi.jobsapp.model;
 public class Local {
 	
 	private String nome;
+	
+	public Local() {
+		
+	}
+	
+	public Local(String nome){
+		
+		this.nome = nome;
+	}
 
 	public String getNome() {
 		return nome;

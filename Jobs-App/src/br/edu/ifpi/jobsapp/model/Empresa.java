@@ -11,7 +11,7 @@ public class Empresa {
 	private String Descricao;
 	private String email;
 	private String logotipo;
-	private List vagas = new ArrayList();
+	private List<Vaga> vagas = new ArrayList<Vaga>();
 	
 	public Empresa() {
 		
