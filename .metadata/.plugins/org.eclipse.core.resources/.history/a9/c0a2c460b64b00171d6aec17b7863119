@@ -1,0 +1,5 @@
+package br.edu.ifpi.jobsapp.model;
+
+public class Local {
+	private String nome;
+}
