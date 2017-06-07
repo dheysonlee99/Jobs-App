@@ -9,4 +9,4 @@ Atividade C
 
 #Diagrama
 
-(ClassDiagram.png)
+![Diagrama de Classe](ClassDiagram.png)
