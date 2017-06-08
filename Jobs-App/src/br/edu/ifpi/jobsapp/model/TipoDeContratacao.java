@@ -7,7 +7,7 @@ public class TipoDeContratacao {
 	// class attributes
 	
 	private String nome;
-	ArrayList<String> vagas;
+	private ArrayList<Vaga> vagas;
 	
 	// getters and setters 
 	
@@ -15,14 +15,14 @@ public class TipoDeContratacao {
 		this.nome = nome;
 	}
 	
-	public void setVagas(ArrayList<String> vagas){
+	public void setVagas(ArrayList<Vaga> vagas){
 		this.vagas = vagas;
 	}
 	
 	public String getNome(){
 		return this.nome;
 	}
-	public ArrayList<String> getVagas(){
+	public ArrayList<Vaga> getVagas(){
 		return this.vagas;
 	}
 
