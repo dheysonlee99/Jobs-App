@@ -83,7 +83,13 @@ public class Empresa {
 	
 	@Override
 	public String toString() {
-		return this.nomeCompleto +" "+ this.local + " "+ this.site + " "+ this.Descricao + " " + this.email + " "+ this.logotipo;
+		
+		return "Nome da Empresa: "+this.nomeCompleto +
+				"\n"+ this.local +
+				"\n"+"Site: "+ this.site + 
+				"\n"+ "Descricao: "+this.Descricao + 
+				"\n" + "e-mail: "+this.email +
+				"\n"+ "logotipo "+this.logotipo;
 	}
 
 }
