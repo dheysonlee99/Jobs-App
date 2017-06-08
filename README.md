@@ -1,12 +1,15 @@
-# Jobs-App
+## Jobs-App
 
 Atividade C
 
 
-#Componentes:
+### Componentes:
 
-1,2,3,4
+* Daniel Farias
+* Dheyson Lee
+* Mateus Oliveira
+* Osmar Junior
 
-#Diagrama
+### Diagrama
 
 ![Diagrama de Classe](ClassDiagram.png)
